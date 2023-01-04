@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         String site = "http://www.google.com";
         String siteContent=htmlContent(site);
-        writeToFile("newFile.html",siteContent);
+        writeToFile("1.html",siteContent);
 
     }
     public static String htmlContent (String webSite){
